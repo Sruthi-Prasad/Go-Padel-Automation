@@ -1,0 +1,366 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "GoPadelTest.GoPadelTest",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "ea44e62e769066c0",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587223620,
+        "stop" : 1653587224415,
+        "duration" : 795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginfunction",
+      "uid" : "f597c7062098c54b",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587224578,
+        "stop" : 1653587254726,
+        "duration" : 30148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ "gkg", "Admin@12345", "Wrong username or password." ]
+    }, {
+      "name" : "loginfunction",
+      "uid" : "a07b2ebfcb43c59b",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587254739,
+        "stop" : 1653587255898,
+        "duration" : 1159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ "admin", "12345", "Wrong username or password.." ]
+    }, {
+      "name" : "loginfunction",
+      "uid" : "aa5026e9500dd62e",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587255905,
+        "stop" : 1653587256869,
+        "duration" : 964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ "kjfkdf", "23135", "Wrong username or password." ]
+    }, {
+      "name" : "loginfunction",
+      "uid" : "a36636555c52f00e",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587256877,
+        "stop" : 1653587257868,
+        "duration" : 991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ "admin", "  ", "Please fill out the field" ]
+    }, {
+      "name" : "loginfunction",
+      "uid" : "11afff88991fd918",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587257874,
+        "stop" : 1653587260329,
+        "duration" : 2455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ "admin", "Admin@12345", " " ]
+    }, {
+      "name" : "main",
+      "uid" : "f04980e347a79f80",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587260342,
+        "stop" : 1653587262403,
+        "duration" : 2061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "forgetPassword",
+      "uid" : "198d71f8507773d4",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587262409,
+        "stop" : 1653587265233,
+        "duration" : 2824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PadelBranchesTest",
+      "uid" : "6848f2b03237a136",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587265240,
+        "stop" : 1653587271844,
+        "duration" : 6604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "padellistPageTest",
+      "uid" : "44c53f8c8112d909",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587271851,
+        "stop" : 1653587273447,
+        "duration" : 1596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addpadelpage",
+      "uid" : "874c97cc67f9ddb9",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587273452,
+        "stop" : 1653587280571,
+        "duration" : 7119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "VerifyAddedPadelBranchTest",
+      "uid" : "6ce43f9fb4d0a96a",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587280580,
+        "stop" : 1653587280747,
+        "duration" : 167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnPadelBranches",
+      "uid" : "e392f0fddd8244ee",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587280754,
+        "stop" : 1653587285844,
+        "duration" : 5090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PadelBranchPageTest",
+      "uid" : "d886629e09cf00af",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587285850,
+        "stop" : 1653587290501,
+        "duration" : 4651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "AddPadelBranchPage",
+      "uid" : "657abc01cd4a096c",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587290507,
+        "stop" : 1653587298814,
+        "duration" : 8307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickOnPadelcourt",
+      "uid" : "71a42acfc2c9f409",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587298820,
+        "stop" : 1653587301981,
+        "duration" : 3161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PadelCourtsPage",
+      "uid" : "efa1991c9fd4ac13",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587301995,
+        "stop" : 1653587307308,
+        "duration" : 5313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "AddPadelCourtsPage",
+      "uid" : "2071c2673861edd7",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587307314,
+        "stop" : 1653587312073,
+        "duration" : 4759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "DiscountCoupons",
+      "uid" : "a126b42d9e51e5af",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587312078,
+        "stop" : 1653587314003,
+        "duration" : 1925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickcreatecoupns",
+      "uid" : "a989d4e84e77fd2f",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587314011,
+        "stop" : 1653587317974,
+        "duration" : 3963
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "coupenList",
+      "uid" : "1ff4f3c1ef66dec6",
+      "parentUid" : "d3faacc987161ae21e07524b39ae24f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653587317979,
+        "stop" : 1653587319427,
+        "duration" : 1448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "GoPadelTest.GoPadelTest"
+  } ]
+}

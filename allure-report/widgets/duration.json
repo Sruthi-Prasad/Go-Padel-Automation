@@ -1,0 +1,211 @@
+[ {
+  "uid" : "6ce43f9fb4d0a96a",
+  "name" : "VerifyAddedPadelBranchTest",
+  "time" : {
+    "start" : 1653587280580,
+    "stop" : 1653587280747,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efa1991c9fd4ac13",
+  "name" : "PadelCourtsPage",
+  "time" : {
+    "start" : 1653587301995,
+    "stop" : 1653587307308,
+    "duration" : 5313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a36636555c52f00e",
+  "name" : "loginfunction",
+  "time" : {
+    "start" : 1653587256877,
+    "stop" : 1653587257868,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44c53f8c8112d909",
+  "name" : "padellistPageTest",
+  "time" : {
+    "start" : 1653587271851,
+    "stop" : 1653587273447,
+    "duration" : 1596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa5026e9500dd62e",
+  "name" : "loginfunction",
+  "time" : {
+    "start" : 1653587255905,
+    "stop" : 1653587256869,
+    "duration" : 964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f04980e347a79f80",
+  "name" : "main",
+  "time" : {
+    "start" : 1653587260342,
+    "stop" : 1653587262403,
+    "duration" : 2061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d886629e09cf00af",
+  "name" : "PadelBranchPageTest",
+  "time" : {
+    "start" : 1653587285850,
+    "stop" : 1653587290501,
+    "duration" : 4651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a07b2ebfcb43c59b",
+  "name" : "loginfunction",
+  "time" : {
+    "start" : 1653587254739,
+    "stop" : 1653587255898,
+    "duration" : 1159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e392f0fddd8244ee",
+  "name" : "clickOnPadelBranches",
+  "time" : {
+    "start" : 1653587280754,
+    "stop" : 1653587285844,
+    "duration" : 5090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f597c7062098c54b",
+  "name" : "loginfunction",
+  "time" : {
+    "start" : 1653587224578,
+    "stop" : 1653587254726,
+    "duration" : 30148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ff4f3c1ef66dec6",
+  "name" : "coupenList",
+  "time" : {
+    "start" : 1653587317979,
+    "stop" : 1653587319427,
+    "duration" : 1448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "657abc01cd4a096c",
+  "name" : "AddPadelBranchPage",
+  "time" : {
+    "start" : 1653587290507,
+    "stop" : 1653587298814,
+    "duration" : 8307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea44e62e769066c0",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1653587223620,
+    "stop" : 1653587224415,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6848f2b03237a136",
+  "name" : "PadelBranchesTest",
+  "time" : {
+    "start" : 1653587265240,
+    "stop" : 1653587271844,
+    "duration" : 6604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2071c2673861edd7",
+  "name" : "AddPadelCourtsPage",
+  "time" : {
+    "start" : 1653587307314,
+    "stop" : 1653587312073,
+    "duration" : 4759
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198d71f8507773d4",
+  "name" : "forgetPassword",
+  "time" : {
+    "start" : 1653587262409,
+    "stop" : 1653587265233,
+    "duration" : 2824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a42acfc2c9f409",
+  "name" : "clickOnPadelcourt",
+  "time" : {
+    "start" : 1653587298820,
+    "stop" : 1653587301981,
+    "duration" : 3161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a989d4e84e77fd2f",
+  "name" : "clickcreatecoupns",
+  "time" : {
+    "start" : 1653587314011,
+    "stop" : 1653587317974,
+    "duration" : 3963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "874c97cc67f9ddb9",
+  "name" : "addpadelpage",
+  "time" : {
+    "start" : 1653587273452,
+    "stop" : 1653587280571,
+    "duration" : 7119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a126b42d9e51e5af",
+  "name" : "DiscountCoupons",
+  "time" : {
+    "start" : 1653587312078,
+    "stop" : 1653587314003,
+    "duration" : 1925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11afff88991fd918",
+  "name" : "loginfunction",
+  "time" : {
+    "start" : 1653587257874,
+    "stop" : 1653587260329,
+    "duration" : 2455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,204 @@
+{
+  "uid" : "2071c2673861edd7",
+  "name" : "AddPadelCourtsPage",
+  "fullName" : "GoPadelTest.GoPadelTest.AddPadelCourtsPage",
+  "historyId" : "1877acb566b3b79b5e13d9daf6f2b8e8",
+  "time" : {
+    "start" : 1653587307314,
+    "stop" : 1653587312073,
+    "duration" : 4759
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653587203593,
+      "stop" : 1653587223476,
+      "duration" : 19883
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653587319481,
+      "stop" : 1653587319835,
+      "duration" : 354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddPadelCourtsPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "7576@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5fe2b89c832f481c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='ddPadel']\"}\n  (Session info: chrome=102.0.5005.62)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-3SKVL4P', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.62, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8af0347c210d6e9248c4a90724c7001b\n*** Element info: {Using=xpath, value=//*[@id='ddPadel']}",
+      "time" : {
+        "start" : 1653587160234,
+        "stop" : 1653587170343,
+        "duration" : 10109
+      }
+    }, {
+      "uid" : "81ced15b3d5594cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653044006012,
+        "stop" : 1653044010268,
+        "duration" : 4256
+      }
+    }, {
+      "uid" : "fa30744f63310d7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936356105,
+        "stop" : 1652936359246,
+        "duration" : 3141
+      }
+    }, {
+      "uid" : "587656625ba38a26",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='ddPadel']\"}\n  (Session info: chrome=101.0.4951.67)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-3SKVL4P', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a63f91506fc072c461890975d8e0a792\n*** Element info: {Using=xpath, value=//*[@id='ddPadel']}",
+      "time" : {
+        "start" : 1652936256046,
+        "stop" : 1652936266154,
+        "duration" : 10108
+      }
+    }, {
+      "uid" : "22a4cd38855802e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877207339,
+        "stop" : 1652877213632,
+        "duration" : 6293
+      }
+    }, {
+      "uid" : "123bb49cfea40d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876808560,
+        "stop" : 1652876814178,
+        "duration" : 5618
+      }
+    }, {
+      "uid" : "4b35596291f1a2a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876636233,
+        "stop" : 1652876643723,
+        "duration" : 7490
+      }
+    }, {
+      "uid" : "eb8dec7c7ac66b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876401154,
+        "stop" : 1652876405939,
+        "duration" : 4785
+      }
+    }, {
+      "uid" : "497eaedb2971987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875980895,
+        "stop" : 1652875985897,
+        "duration" : 5002
+      }
+    }, {
+      "uid" : "e35849f663e90ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875832500,
+        "stop" : 1652875836694,
+        "duration" : 4194
+      }
+    }, {
+      "uid" : "a0e0dec37e66a1fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875629994,
+        "stop" : 1652875633930,
+        "duration" : 3936
+      }
+    }, {
+      "uid" : "6c4ebb73727f59bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875349710,
+        "stop" : 1652875354320,
+        "duration" : 4610
+      }
+    }, {
+      "uid" : "fa6e3d45dc513d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864183511,
+        "stop" : 1652864187880,
+        "duration" : 4369
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2071c2673861edd7.json",
+  "parameterValues" : [ ]
+}

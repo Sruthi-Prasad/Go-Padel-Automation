@@ -32,21 +32,17 @@ public class GoPadelTestBase {
 	public static Properties envConfig;
 	WebDriverWait wait;
 
-	// Environment value fetched from POM with 'careersIn' and 'production' being
-	// the valid values
 	public static final String ENV = System.getProperty("env", "Url");
 
-	// BROWSER value fetched from POM with Chrome being the default value
+
 	private static final String BROWSER = System.getProperty("browser", "Chrome");
 
-	// Automation suite setup method to configure and instantiate a particular
-	// browser
 	@BeforeSuite
 	public void suiteSetup() throws Exception {
 
-		// Browser configuration - can add more browsers and remote driver here
+
 		if (BROWSER.equals("Firefox")) {
-			WebDriverManager.firefoxdriver().setup(); // can also use set property method for browser executables
+			WebDriverManager.firefoxdriver().setup(); 
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("Chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -60,15 +56,15 @@ public class GoPadelTestBase {
 			throw new RuntimeException("Browser type unsupported");
 		}
 
-		// Setting implicit wait
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.manage().window().maximize();
 
-		// Setting WebDriverWait with max timeout value of 20 seconds
+	
 		wait = new WebDriverWait(driver, 20);
 
-		// Environment specific properties file loading
+
 		InputStream configFile = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\GoPadelURL\\URL\\" + ENV + ".properties");
 		envConfig = new Properties();
@@ -76,13 +72,9 @@ public class GoPadelTestBase {
 		driver.get(envConfig.getProperty("baseUrl"));
 	}
 
-//	@BeforeMethod()
-//	public void loadBaseUrl(Method method) {
-//		driver.get(envConfig.getProperty("baseUrl"));
-//	}
 
 	@AfterSuite
 	public void suiteTearDown() {
-		// driver.quit();
+		 driver.quit();
 	}
 }
