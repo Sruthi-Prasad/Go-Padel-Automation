@@ -1,186 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-26T23:17:03 IST" name="Default suite" finished-at="2022-05-26T23:18:39 IST" duration-ms="95951">
+  <suite started-at="2022-05-17T10:21:15 IST" name="Default suite" finished-at="2022-05-17T10:21:43 IST" duration-ms="27737">
     <groups>
     </groups>
-    <test started-at="2022-05-26T23:17:03 IST" name="Default test" finished-at="2022-05-26T23:18:39 IST" duration-ms="95951">
+    <test started-at="2022-05-17T10:21:15 IST" name="Default test" finished-at="2022-05-17T10:21:43 IST" duration-ms="27737">
       <class name="GoPadelTest.GoPadelTest">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:16:43 IST" name="suiteSetup" finished-at="2022-05-26T23:17:03 IST" duration-ms="19901" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:08 IST" name="suiteSetup" finished-at="2022-05-17T10:21:15 IST" duration-ms="7101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method signature="loginTest()[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:03 IST" name="loginTest" finished-at="2022-05-26T23:17:04 IST" duration-ms="883" status="PASS">
+        <test-method signature="bookingCalenderTest()[pri:0, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:15 IST" name="bookingCalenderTest" finished-at="2022-05-17T10:21:21 IST" duration-ms="6294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginfunction(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:04 IST" name="loginfunction" data-provider="loginCredentials" finished-at="2022-05-26T23:17:34 IST" duration-ms="30151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gkg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wrong username or password.]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- bookingCalenderTest -->
+        <test-method signature="bookingPopupTest()[pri:1, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:21 IST" name="bookingPopupTest" finished-at="2022-05-17T10:21:32 IST" duration-ms="10789" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginfunction -->
-        <test-method signature="loginfunction(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:34 IST" name="loginfunction" data-provider="loginCredentials" finished-at="2022-05-26T23:17:35 IST" duration-ms="1164" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wrong username or password..]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- bookingPopupTest -->
+        <test-method signature="trainerBookingTest()[pri:2, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:32 IST" name="trainerBookingTest" finished-at="2022-05-17T10:21:35 IST" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginfunction -->
-        <test-method signature="loginfunction(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:35 IST" name="loginfunction" data-provider="loginCredentials" finished-at="2022-05-26T23:17:36 IST" duration-ms="968" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kjfkdf]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[23135]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wrong username or password.]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- trainerBookingTest -->
+        <test-method signature="recurringBookingTest()[pri:3, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:35 IST" name="recurringBookingTest" finished-at="2022-05-17T10:21:37 IST" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginfunction -->
-        <test-method signature="loginfunction(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:36 IST" name="loginfunction" data-provider="loginCredentials" finished-at="2022-05-26T23:17:37 IST" duration-ms="995" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[  ]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Please fill out the field]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- recurringBookingTest -->
+        <test-method signature="manageBookPageTest()[pri:4, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:37 IST" name="manageBookPageTest" finished-at="2022-05-17T10:21:42 IST" duration-ms="5510" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginfunction -->
-        <test-method signature="loginfunction(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:37 IST" name="loginfunction" data-provider="loginCredentials" finished-at="2022-05-26T23:17:40 IST" duration-ms="2456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- manageBookPageTest -->
+        <test-method signature="blockTimePageTest()[pri:5, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:42 IST" name="blockTimePageTest" finished-at="2022-05-17T10:21:43 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginfunction -->
-        <test-method signature="main()[pri:1, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:40 IST" name="main" finished-at="2022-05-26T23:17:42 IST" duration-ms="2068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method signature="forgetPassword()[pri:2, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:42 IST" name="forgetPassword" finished-at="2022-05-26T23:17:45 IST" duration-ms="2824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetPassword -->
-        <test-method signature="PadelBranchesTest()[pri:3, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:45 IST" name="PadelBranchesTest" finished-at="2022-05-26T23:17:51 IST" duration-ms="6605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PadelBranchesTest -->
-        <test-method signature="padellistPageTest()[pri:4, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:51 IST" name="padellistPageTest" finished-at="2022-05-26T23:17:53 IST" duration-ms="1598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- padellistPageTest -->
-        <test-method signature="addpadelpage()[pri:5, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:17:53 IST" name="addpadelpage" finished-at="2022-05-26T23:18:00 IST" duration-ms="7119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addpadelpage -->
-        <test-method signature="VerifyAddedPadelBranchTest()[pri:6, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:00 IST" name="VerifyAddedPadelBranchTest" finished-at="2022-05-26T23:18:00 IST" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyAddedPadelBranchTest -->
-        <test-method signature="clickOnPadelBranches()[pri:7, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:00 IST" name="clickOnPadelBranches" finished-at="2022-05-26T23:18:05 IST" duration-ms="5094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnPadelBranches -->
-        <test-method signature="PadelBranchPageTest()[pri:8, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:05 IST" name="PadelBranchPageTest" finished-at="2022-05-26T23:18:10 IST" duration-ms="4653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PadelBranchPageTest -->
-        <test-method signature="AddPadelBranchPage()[pri:10, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:10 IST" name="AddPadelBranchPage" finished-at="2022-05-26T23:18:18 IST" duration-ms="8310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddPadelBranchPage -->
-        <test-method signature="clickOnPadelcourt()[pri:11, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:18 IST" name="clickOnPadelcourt" finished-at="2022-05-26T23:18:21 IST" duration-ms="3163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnPadelcourt -->
-        <test-method signature="PadelCourtsPage()[pri:12, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:21 IST" name="PadelCourtsPage" finished-at="2022-05-26T23:18:27 IST" duration-ms="5315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PadelCourtsPage -->
-        <test-method signature="AddPadelCourtsPage()[pri:13, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:27 IST" name="AddPadelCourtsPage" finished-at="2022-05-26T23:18:32 IST" duration-ms="4762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddPadelCourtsPage -->
-        <test-method signature="DiscountCoupons()[pri:14, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:32 IST" name="DiscountCoupons" finished-at="2022-05-26T23:18:34 IST" duration-ms="1928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DiscountCoupons -->
-        <test-method signature="clickcreatecoupns()[pri:15, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:34 IST" name="clickcreatecoupns" finished-at="2022-05-26T23:18:37 IST" duration-ms="3967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickcreatecoupns -->
-        <test-method signature="coupenList()[pri:16, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:37 IST" name="coupenList" finished-at="2022-05-26T23:18:39 IST" duration-ms="1448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coupenList -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:GoPadelTest.GoPadelTest@60cf80e7]" started-at="2022-05-26T23:18:39 IST" name="suiteTearDown" finished-at="2022-05-26T23:18:39 IST" duration-ms="354" status="PASS">
+        </test-method> <!-- blockTimePageTest -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:GoPadelTest.GoPadelTest@26be6ca7]" started-at="2022-05-17T10:21:43 IST" name="suiteTearDown" finished-at="2022-05-17T10:21:43 IST" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
