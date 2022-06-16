@@ -1,0 +1,195 @@
+{
+  "uid" : "32da28fb55b6759c",
+  "name" : "loginfunction",
+  "fullName" : "GoPadelTest.GoPadelTest.loginfunction",
+  "historyId" : "43353e059def27bb275f2056cf5f8248",
+  "time" : {
+    "start" : 1653043966030,
+    "stop" : 1653043967157,
+    "duration" : 1127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653043938484,
+      "stop" : 1653043953176,
+      "duration" : 14692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653044017056,
+      "stop" : 1653044017439,
+      "duration" : 383
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginfunction"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "4720@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "admin"
+  }, {
+    "name" : "arg1",
+    "value" : "  "
+  }, {
+    "name" : "arg2",
+    "value" : "Please fill out the field"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "558e5d6416cecbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936324374,
+        "stop" : 1652936325164,
+        "duration" : 790
+      }
+    }, {
+      "uid" : "d8b12fcd6aa446d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936224723,
+        "stop" : 1652936225547,
+        "duration" : 824
+      }
+    }, {
+      "uid" : "58ecec1e2b0cb174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877151972,
+        "stop" : 1652877153460,
+        "duration" : 1488
+      }
+    }, {
+      "uid" : "f3f71eb8c5d2d024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876749929,
+        "stop" : 1652876751590,
+        "duration" : 1661
+      }
+    }, {
+      "uid" : "139c4bce8661c646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876578838,
+        "stop" : 1652876580513,
+        "duration" : 1675
+      }
+    }, {
+      "uid" : "6938dd3c930f8766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876362759,
+        "stop" : 1652876363845,
+        "duration" : 1086
+      }
+    }, {
+      "uid" : "91ee8c2ae2bbd698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875930894,
+        "stop" : 1652875932064,
+        "duration" : 1170
+      }
+    }, {
+      "uid" : "69dae41882fb82ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875795675,
+        "stop" : 1652875796659,
+        "duration" : 984
+      }
+    }, {
+      "uid" : "a4b3f536f76e8b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875592837,
+        "stop" : 1652875593761,
+        "duration" : 924
+      }
+    }, {
+      "uid" : "f4df1195e768aef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875311666,
+        "stop" : 1652875312644,
+        "duration" : 978
+      }
+    }, {
+      "uid" : "550fb2fbb4476565",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864140509,
+        "stop" : 1652864141561,
+        "duration" : 1052
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32da28fb55b6759c.json",
+  "parameterValues" : [ "admin", "  ", "Please fill out the field" ]
+}

@@ -1,0 +1,186 @@
+{
+  "uid" : "9ad49e38fc1c12b3",
+  "name" : "clickOnPadelBranches",
+  "fullName" : "GoPadelTest.GoPadelTest.clickOnPadelBranches",
+  "historyId" : "d0d4f13cc0f962598650ae666d9fbd0b",
+  "time" : {
+    "start" : 1653043985492,
+    "stop" : 1653043988041,
+    "duration" : 2549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653043938484,
+      "stop" : 1653043953176,
+      "duration" : 14692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653044017056,
+      "stop" : 1653044017439,
+      "duration" : 383
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnPadelBranches"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "4720@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "feeef9f453be55b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936339797,
+        "stop" : 1652936341877,
+        "duration" : 2080
+      }
+    }, {
+      "uid" : "8c484df99a0fd1a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936241392,
+        "stop" : 1652936243731,
+        "duration" : 2339
+      }
+    }, {
+      "uid" : "64e4dfdfd2980b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877177803,
+        "stop" : 1652877180430,
+        "duration" : 2627
+      }
+    }, {
+      "uid" : "28b6a7a58caae9b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876779002,
+        "stop" : 1652876782095,
+        "duration" : 3093
+      }
+    }, {
+      "uid" : "1aef22b24334cbf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876606234,
+        "stop" : 1652876609198,
+        "duration" : 2964
+      }
+    }, {
+      "uid" : "bfe6111306f06e70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876380826,
+        "stop" : 1652876382581,
+        "duration" : 1755
+      }
+    }, {
+      "uid" : "92d8faee09a2cc55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875960982,
+        "stop" : 1652875963198,
+        "duration" : 2216
+      }
+    }, {
+      "uid" : "3a6572d76653e977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875812663,
+        "stop" : 1652875814745,
+        "duration" : 2082
+      }
+    }, {
+      "uid" : "853386fdef194343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875610195,
+        "stop" : 1652875612263,
+        "duration" : 2068
+      }
+    }, {
+      "uid" : "af54ab1621bd48f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875330032,
+        "stop" : 1652875331699,
+        "duration" : 1667
+      }
+    }, {
+      "uid" : "891ce4053f43be25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864162101,
+        "stop" : 1652864165779,
+        "duration" : 3678
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ad49e38fc1c12b3.json",
+  "parameterValues" : [ ]
+}

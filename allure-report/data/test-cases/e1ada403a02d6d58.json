@@ -1,0 +1,96 @@
+{
+  "uid" : "e1ada403a02d6d58",
+  "name" : "AddPadelBranchPage",
+  "fullName" : "GoPadelTest.GoPadelTest.AddPadelBranchPage",
+  "historyId" : "55b0ea212de77092446053f154192b8",
+  "time" : {
+    "start" : 1652936345319,
+    "stop" : 1652936351141,
+    "duration" : 5822
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1652936296181,
+      "stop" : 1652936306166,
+      "duration" : 9985
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1652936364313,
+      "stop" : 1652936364637,
+      "duration" : 324
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddPadelBranchPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "2360@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1ada403a02d6d58.json",
+  "parameterValues" : [ ]
+}

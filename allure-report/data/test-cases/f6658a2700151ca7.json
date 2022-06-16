@@ -1,0 +1,195 @@
+{
+  "uid" : "f6658a2700151ca7",
+  "name" : "loginfunction",
+  "fullName" : "GoPadelTest.GoPadelTest.loginfunction",
+  "historyId" : "db6b20f1f5c1da1d5226680895ea3e0a",
+  "time" : {
+    "start" : 1653043963380,
+    "stop" : 1653043964828,
+    "duration" : 1448
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653043938484,
+      "stop" : 1653043953176,
+      "duration" : 14692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653044017056,
+      "stop" : 1653044017439,
+      "duration" : 383
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginfunction"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "4720@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "admin"
+  }, {
+    "name" : "arg1",
+    "value" : "12345"
+  }, {
+    "name" : "arg2",
+    "value" : "Wrong username or password.."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ba1901e496f49d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936322199,
+        "stop" : 1652936323424,
+        "duration" : 1225
+      }
+    }, {
+      "uid" : "d426e55463c153f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936222738,
+        "stop" : 1652936223754,
+        "duration" : 1016
+      }
+    }, {
+      "uid" : "1d36f7dea462884c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877148615,
+        "stop" : 1652877150513,
+        "duration" : 1898
+      }
+    }, {
+      "uid" : "c986f10012d13634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876745772,
+        "stop" : 1652876747999,
+        "duration" : 2227
+      }
+    }, {
+      "uid" : "155c4625203a2618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876574964,
+        "stop" : 1652876577085,
+        "duration" : 2121
+      }
+    }, {
+      "uid" : "345908c41887de1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876360282,
+        "stop" : 1652876361583,
+        "duration" : 1301
+      }
+    }, {
+      "uid" : "def1d2a00bbbc255",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875928118,
+        "stop" : 1652875929712,
+        "duration" : 1594
+      }
+    }, {
+      "uid" : "502604483a59ff18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875793282,
+        "stop" : 1652875794640,
+        "duration" : 1358
+      }
+    }, {
+      "uid" : "48bfca6b96224bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875590503,
+        "stop" : 1652875591750,
+        "duration" : 1247
+      }
+    }, {
+      "uid" : "c62eb6392185a8a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875308424,
+        "stop" : 1652875309942,
+        "duration" : 1518
+      }
+    }, {
+      "uid" : "a843d50b0ff4e825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864137870,
+        "stop" : 1652864139201,
+        "duration" : 1331
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6658a2700151ca7.json",
+  "parameterValues" : [ "admin", "12345", "Wrong username or password.." ]
+}
