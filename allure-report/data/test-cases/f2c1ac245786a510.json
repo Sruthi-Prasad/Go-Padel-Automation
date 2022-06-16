@@ -1,0 +1,187 @@
+{
+  "uid" : "f2c1ac245786a510",
+  "name" : "clickcreatecoupns",
+  "fullName" : "GoPadelTest.GoPadelTest.clickcreatecoupns",
+  "historyId" : "fe0add8abb9369d12ee860497d848fd7",
+  "time" : {
+    "start" : 1653044011809,
+    "stop" : 1653044015751,
+    "duration" : 3942
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653043938484,
+      "stop" : 1653043953176,
+      "duration" : 14692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653044017056,
+      "stop" : 1653044017439,
+      "duration" : 383
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickcreatecoupns"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "4720@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23799c103cc8e5f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936360154,
+        "stop" : 1652936363261,
+        "duration" : 3107
+      }
+    }, {
+      "uid" : "90b8da325dfdc51e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936267404,
+        "stop" : 1652936270841,
+        "duration" : 3437
+      }
+    }, {
+      "uid" : "e82890362acd950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877215372,
+        "stop" : 1652877221353,
+        "duration" : 5981
+      }
+    }, {
+      "uid" : "22a2f785f7ff88a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876816237,
+        "stop" : 1652876823433,
+        "duration" : 7196
+      }
+    }, {
+      "uid" : "ef7de21d5de1b3ed",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='Title']\"}\n  (Session info: chrome=101.0.4951.67)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-3SKVL4P', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c4946c9d3744c4e7344036a7c817bb8\n*** Element info: {Using=xpath, value=//*[@id='Title']}",
+      "time" : {
+        "start" : 1652876654234,
+        "stop" : 1652876664318,
+        "duration" : 10084
+      }
+    }, {
+      "uid" : "c2d8c55bcf6b778b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876407295,
+        "stop" : 1652876411561,
+        "duration" : 4266
+      }
+    }, {
+      "uid" : "91ddcc81e785f0f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875988261,
+        "stop" : 1652875992170,
+        "duration" : 3909
+      }
+    }, {
+      "uid" : "5989113d8e06c770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875838108,
+        "stop" : 1652875842542,
+        "duration" : 4434
+      }
+    }, {
+      "uid" : "9435add6a50c9d85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875635141,
+        "stop" : 1652875639406,
+        "duration" : 4265
+      }
+    }, {
+      "uid" : "eb4c10d181fb0fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875355675,
+        "stop" : 1652875360161,
+        "duration" : 4486
+      }
+    }, {
+      "uid" : "c448c83768c67713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864189338,
+        "stop" : 1652864193578,
+        "duration" : 4240
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2c1ac245786a510.json",
+  "parameterValues" : [ ]
+}

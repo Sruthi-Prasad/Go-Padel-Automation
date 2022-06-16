@@ -1,0 +1,187 @@
+{
+  "uid" : "c26db3ef2ab7f6dc",
+  "name" : "DiscountCoupons",
+  "fullName" : "GoPadelTest.GoPadelTest.DiscountCoupons",
+  "historyId" : "1bbb4b1fbb093937d9143ac5c0c825d7",
+  "time" : {
+    "start" : 1653044010274,
+    "stop" : 1653044011803,
+    "duration" : 1529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1653043938484,
+      "stop" : 1653043953176,
+      "duration" : 14692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "suiteTearDown",
+    "time" : {
+      "start" : 1653044017056,
+      "stop" : 1653044017439,
+      "duration" : 383
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "DiscountCoupons"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoPadelTest.GoPadelTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3SKVL4P"
+  }, {
+    "name" : "thread",
+    "value" : "4720@DESKTOP-3SKVL4P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "19a7f26dc137eaed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936359252,
+        "stop" : 1652936360150,
+        "duration" : 898
+      }
+    }, {
+      "uid" : "b1212f9e77a70660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652936266173,
+        "stop" : 1652936267399,
+        "duration" : 1226
+      }
+    }, {
+      "uid" : "eecae89f712c85a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652877213641,
+        "stop" : 1652877215365,
+        "duration" : 1724
+      }
+    }, {
+      "uid" : "31cfa022c01aa224",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876814192,
+        "stop" : 1652876816230,
+        "duration" : 2038
+      }
+    }, {
+      "uid" : "1aed9076c124a64c",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=101.0.4951.67)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-3SKVL4P', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c4946c9d3744c4e7344036a7c817bb8",
+      "time" : {
+        "start" : 1652876643731,
+        "stop" : 1652876654228,
+        "duration" : 10497
+      }
+    }, {
+      "uid" : "c3712a3012cfe0f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652876405944,
+        "stop" : 1652876407288,
+        "duration" : 1344
+      }
+    }, {
+      "uid" : "ad40ce541bdd5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875985904,
+        "stop" : 1652875988254,
+        "duration" : 2350
+      }
+    }, {
+      "uid" : "36544745ef187706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875836700,
+        "stop" : 1652875838102,
+        "duration" : 1402
+      }
+    }, {
+      "uid" : "7c08cf528aa4bdf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875633935,
+        "stop" : 1652875635134,
+        "duration" : 1199
+      }
+    }, {
+      "uid" : "5e2cc634f9664ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652875354326,
+        "stop" : 1652875355669,
+        "duration" : 1343
+      }
+    }, {
+      "uid" : "dc5fdd988ce6fe60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652864187886,
+        "stop" : 1652864189330,
+        "duration" : 1444
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26db3ef2ab7f6dc.json",
+  "parameterValues" : [ ]
+}
